@@ -1,37 +1,27 @@
 package com.marco.bizmall.navigation
 
-<<<<<<< HEAD
-import android.window.SplashScreen
-=======
->>>>>>> a33afe81711b2374c0fb5804d562be5a76dd3c3a
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.glory.scaffold.ui.screens.home.ScaffoldScreen
 import com.marco.bizmall.ui.screens.about.AboutScreen
 import com.marco.bizmall.ui.screens.category.CategoryScreen
 import com.marco.bizmall.ui.screens.contact.ContactScreen
+import com.marco.bizmall.ui.screens.dashboard.DashboardScreen
+import com.marco.bizmall.ui.screens.detail.DetailScreen
 import com.marco.bizmall.ui.screens.home.HomeScreen
 import com.marco.bizmall.ui.screens.item.ItemScreen
-<<<<<<< HEAD
 import com.marco.bizmall.ui.screens.splash.SplashScreen
-=======
->>>>>>> a33afe81711b2374c0fb5804d562be5a76dd3c3a
 
 @Composable
 fun AppNavHost(
     modifier: Modifier = Modifier,
     navController: NavHostController = rememberNavController(),
-<<<<<<< HEAD
-    startDestination: String = ROUT_SPLASH
-
-=======
-    startDestination: String = ROUT_HOME
->>>>>>> a33afe81711b2374c0fb5804d562be5a76dd3c3a
+    startDestination: String = ROUT_SPLASH // Choose only one start destination
 ) {
-
     NavHost(
         navController = navController,
         startDestination = startDestination,
@@ -52,25 +42,17 @@ fun AppNavHost(
         composable(ROUT_CATEGORY) {
             CategoryScreen(navController)
         }
-<<<<<<< HEAD
         composable(ROUT_SPLASH) {
             SplashScreen(navController)
-
+        }
+        composable(ROUT_SCAFFOLD) {
+            ScaffoldScreen(navController)
+        }
+        composable(ROUT_DETAIL) {
+            DetailScreen(navController)
+        }
+        composable(ROUT_DETAIL) {
+            DashboardScreen(navController)
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-=======
-
-    }
-}
->>>>>>> a33afe81711b2374c0fb5804d562be5a76dd3c3a

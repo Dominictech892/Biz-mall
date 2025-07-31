@@ -97,20 +97,14 @@ fun HomeScreen(navController: NavController){
         }
 
 
-<<<<<<< HEAD
-    }
-
-
-=======
-
-
-
     }
 
 
 
->>>>>>> a33afe81711b2374c0fb5804d562be5a76dd3c3a
-}
+
+    }
+
+
 
 @Preview(showBackground = true)
 @Composable

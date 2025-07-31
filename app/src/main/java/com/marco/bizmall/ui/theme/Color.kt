@@ -13,4 +13,5 @@ val Greennew = Color(0xFF3DC421)
 val Bluenew = Color(0xFF0693C0)
 val Yellownew = Color(0xFFFFF900)
 val yellowstar = Color(0xFFFFC107)
+val Purple1 = Color(0xFFD77EF6)
 
