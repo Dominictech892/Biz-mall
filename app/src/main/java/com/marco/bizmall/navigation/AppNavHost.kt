@@ -10,6 +10,7 @@ import com.glory.scaffold.ui.screens.home.ScaffoldScreen
 import com.marco.bizmall.ui.screens.about.AboutScreen
 import com.marco.bizmall.ui.screens.category.CategoryScreen
 import com.marco.bizmall.ui.screens.contact.ContactScreen
+import com.marco.bizmall.ui.screens.contact.DashboardScreen2
 import com.marco.bizmall.ui.screens.dashboard.DashboardScreen
 import com.marco.bizmall.ui.screens.detail.DetailScreen
 import com.marco.bizmall.ui.screens.home.HomeScreen
@@ -53,6 +54,9 @@ fun AppNavHost(
         }
         composable(ROUT_DETAIL) {
             DashboardScreen(navController)
+        }
+        composable(ROUT_DETAIL) {
+            DashboardScreen2(navController)
         }
     }
 }

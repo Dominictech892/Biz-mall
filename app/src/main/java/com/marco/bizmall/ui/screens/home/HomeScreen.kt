@@ -19,8 +19,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontFamily
@@ -35,7 +33,6 @@ import com.marco.bizmall.R
 import com.marco.bizmall.navigation.ROUT_ITEM
 import com.marco.bizmall.ui.theme.Bluenew
 import com.marco.bizmall.ui.theme.Greennew
-import com.marco.bizmall.ui.theme.Yellownew
 
 @Composable
 fun HomeScreen(navController: NavController){

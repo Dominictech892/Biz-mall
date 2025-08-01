@@ -8,5 +8,5 @@ const val ROUT_CATEGORY = "category"
 const val ROUT_SPLASH = "splash"
 const val ROUT_SCAFFOLD = "scaffold"
 const val ROUT_DETAIL = "detail"
-const val ROUT_DATE = "date"
+const val ROUT_DASHBOARD = "dashboard"
 

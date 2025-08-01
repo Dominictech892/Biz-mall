@@ -83,21 +83,23 @@ fun DashboardScreen(navController: NavController) {
                     modifier = Modifier.fillMaxSize(),
                     contentAlignment = Alignment.CenterStart
                 ) {
-                    Image(
-                        painter = painterResource(R.drawable.img_1),
-                        contentDescription = null,
-                        modifier = Modifier.fillMaxSize(),
-                        contentScale = ContentScale.FillBounds
-                    )
-                    Text(
-                        text = "Cryptocurrency Landing Page",
-                        fontSize = 20.sp,
-                        fontWeight = FontWeight.Bold,
-                        color = Color.White,
-                        modifier = Modifier
-                            .padding(start = 20.dp)
-                            .align(Alignment.CenterStart)
-                    )
+
+                        Image(
+                            painter = painterResource(R.drawable.img_1),
+                            contentDescription = null,
+                            modifier = Modifier.fillMaxSize(),
+                            contentScale = ContentScale.FillBounds
+                        )
+                        Text(
+                            text = "Cryptocurrency Landing Page",
+                            fontSize = 20.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = Color.White,
+                            modifier = Modifier
+                                .padding(start = 20.dp)
+                                .align(Alignment.CenterStart)
+                        )
+
                 }
             }
             Spacer(modifier = Modifier.height(16.dp))
